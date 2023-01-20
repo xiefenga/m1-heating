@@ -4,7 +4,7 @@ import { getDirFileName } from './util.js'
 
 export const DEFAULT_THREAD_NUM = 4
 
-export const DEFAULT_DETECT_INTERVAL = 1000 * 60
+export const DEFAULT_DETECT_INTERVAL = 60
 
 export const DEFAULT_MIN_TEMPERATURE = 30
 
