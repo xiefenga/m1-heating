@@ -1,0 +1,49 @@
+{
+  "name": "m1-heating",
+  "version": "0.0.1",
+  "license": "MIT",
+  "bin": "src/bin.js",
+  "author": {
+    "name": "xiefeng",
+    "email": "x1294699027@gmail.com"
+  },
+  "files": [
+    "src",
+    "mac-temperature"
+  ],
+  "type": "module",
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "log4js": "^6.7.1",
+    "yargs": "^17.6.2"
+  },
+  "devDependencies": {
+    "@0x1461a0/commitlint-config": "^0.0.5",
+    "@0x1461a0/cz-config": "^0.0.5",
+    "@0x1461a0/eslint-config": "^0.0.1",
+    "commitizen": "4.2.4",
+    "commitlint": "^17.4.2",
+    "cz-customizable": "^7.0.0",
+    "eslint": "^8.32.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-customizable"
+    },
+    "cz-customizable": {
+      "config": "./node_modules/@0x1461a0/cz-config"
+    }
+  },
+  "commitlint": {
+    "extends": [
+      "@0x1461a0"
+    ]
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": "eslint --fix"
+  }
+}

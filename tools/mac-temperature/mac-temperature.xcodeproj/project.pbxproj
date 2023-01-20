@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F7D6924297960230031C9B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F7D6923297960230031C9B2 /* main.m */; };
+		5F7D6937297972950031C9B2 /* temperature.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F7D6936297972950031C9B2 /* temperature.m */; };
+		5F7D69392979746C0031C9B2 /* appleSmc.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F7D69382979746C0031C9B2 /* appleSmc.m */; };
+		5F7D693D2979778C0031C9B2 /* appSmc2.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F7D693C2979778C0031C9B2 /* appSmc2.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5F7D691E297960230031C9B2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5F7D6920297960230031C9B2 /* mac-temperature */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "mac-temperature"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F7D6923297960230031C9B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5F7D6936297972950031C9B2 /* temperature.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = temperature.m; sourceTree = "<group>"; };
+		5F7D69382979746C0031C9B2 /* appleSmc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = appleSmc.m; sourceTree = "<group>"; };
+		5F7D693A297975A30031C9B2 /* appleSmc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = appleSmc.h; sourceTree = "<group>"; };
+		5F7D693B2979773A0031C9B2 /* appleSmc2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = appleSmc2.h; sourceTree = "<group>"; };
+		5F7D693C2979778C0031C9B2 /* appSmc2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = appSmc2.m; sourceTree = "<group>"; };
+		5F7D693F297978860031C9B2 /* temperature.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = temperature.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F7D691D297960230031C9B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F7D6917297960230031C9B2 = {
+			isa = PBXGroup;
+			children = (
+				5F7D6922297960230031C9B2 /* mac-temperature */,
+				5F7D6921297960230031C9B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F7D6921297960230031C9B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F7D6920297960230031C9B2 /* mac-temperature */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F7D6922297960230031C9B2 /* mac-temperature */ = {
+			isa = PBXGroup;
+			children = (
+				5F7D693E2979780A0031C9B2 /* smc */,
+				5F7D6923297960230031C9B2 /* main.m */,
+				5F7D6936297972950031C9B2 /* temperature.m */,
+				5F7D693F297978860031C9B2 /* temperature.h */,
+			);
+			path = "mac-temperature";
+			sourceTree = "<group>";
+		};
+		5F7D693E2979780A0031C9B2 /* smc */ = {
+			isa = PBXGroup;
+			children = (
+				5F7D69382979746C0031C9B2 /* appleSmc.m */,
+				5F7D693A297975A30031C9B2 /* appleSmc.h */,
+				5F7D693B2979773A0031C9B2 /* appleSmc2.h */,
+				5F7D693C2979778C0031C9B2 /* appSmc2.m */,
+			);
+			path = smc;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F7D691F297960230031C9B2 /* mac-temperature */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F7D6927297960230031C9B2 /* Build configuration list for PBXNativeTarget "mac-temperature" */;
+			buildPhases = (
+				5F7D691C297960230031C9B2 /* Sources */,
+				5F7D691D297960230031C9B2 /* Frameworks */,
+				5F7D691E297960230031C9B2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "mac-temperature";
+			productName = "mac-temperature";
+			productReference = 5F7D6920297960230031C9B2 /* mac-temperature */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F7D6918297960230031C9B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					5F7D691F297960230031C9B2 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 5F7D691B297960230031C9B2 /* Build configuration list for PBXProject "mac-temperature" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F7D6917297960230031C9B2;
+			productRefGroup = 5F7D6921297960230031C9B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F7D691F297960230031C9B2 /* mac-temperature */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F7D691C297960230031C9B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F7D6937297972950031C9B2 /* temperature.m in Sources */,
+				5F7D6924297960230031C9B2 /* main.m in Sources */,
+				5F7D693D2979778C0031C9B2 /* appSmc2.m in Sources */,
+				5F7D69392979746C0031C9B2 /* appleSmc.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5F7D6925297960230031C9B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5F7D6926297960230031C9B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5F7D6928297960230031C9B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5F7D6929297960230031C9B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F7D691B297960230031C9B2 /* Build configuration list for PBXProject "mac-temperature" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F7D6925297960230031C9B2 /* Debug */,
+				5F7D6926297960230031C9B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F7D6927297960230031C9B2 /* Build configuration list for PBXNativeTarget "mac-temperature" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F7D6928297960230031C9B2 /* Debug */,
+				5F7D6929297960230031C9B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F7D6918297960230031C9B2 /* Project object */;
+}
