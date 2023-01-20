@@ -29,7 +29,7 @@ const width = 50
 export const logProgram = (min, max, interval, num) => {
   console.log(`
   *${'*'.repeat(width)}*
-  *${' '.repeat(Math.floor((width - 7) / 2))}M1 WARM${' '.repeat(Math.ceil((width - 7) / 2))}*
+  *${' '.repeat(Math.floor((width - 10) / 2))}M1 HEATING${' '.repeat(Math.ceil((width - 10) / 2))}*
   *${' '.repeat(width)}*
   *   检测间隔: ${`${interval}s`.padEnd(width - 13)}*
   *   加热线程数: ${`${num}`.padEnd(width - 15)}*
